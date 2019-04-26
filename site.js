@@ -1,13 +1,13 @@
 /* SITE.JS: THIS FILE CONTAINS THE METHODS/FUNCTIONS AND VARIABLES CONTROLLING YOUR SITE
-// 
+//
 */
 
 /* NOTE: MOVIES.JSON CONTAINS A LIST OF MOVIES AND ACCOMPANYING METADATA
-//    
+//
 //    They are in the following format:
 //    title (String): the name of the movie
 //    iscore (Number): the IMDB score
-//    rating (String): the movie's MPAA rating 
+//    rating (String): the movie's MPAA rating
 //    released (Array): the release date. Note that the order of the array is:  YYYY, MM, DD
 //    country (String): the country of production
 //    posters (Array): an array of String values with the URL to movie posters (in your img/ directory)
@@ -35,10 +35,11 @@ const vue_app = new Vue({
             movies: []
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            var title="IMDB + Sagar’s Top 8 Movies";
+            var owner="Sagar";
+            var github="https://github.com/sagar1950/spatel-p3";
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
       }
 })
-	
-
