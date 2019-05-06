@@ -37,8 +37,8 @@ const vue_app = new Vue({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title:"IMDB + Sagar's Top 8 Movies",
             owner:"Sagar",
-            github:"https://github.com/sagar1950/spatel-p3",
-            poster: 'img/shawshank.jpg'
+            github:"https://github.com/sagar1950/spatel-p3"
+            //poster: 'img/shawshank.jpg'
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
