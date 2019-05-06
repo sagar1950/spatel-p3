@@ -42,5 +42,73 @@ const vue_app = new Vue({
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-      }
+            makeTextDate: function(dateArray){
+              let day= dateArray[2]; //2 b/c (x,x,date)
+              let month=dateArray[1]; //1 because (x,month,x)
+              let year=dateArray[0]; //0 because it's the first in the array (Year,x,x)
+
+            switch (month) {
+              case 1:
+              month="January";
+                break;
+                case 2:
+                month="February";
+                  break;
+                  case 3:
+                  month="March";
+                    break;
+                    case 4:
+                    month="April";
+                      break;
+                      case 5:
+                      month="May";
+                        break;
+                        case 6:
+                        month="June";
+                          break;
+                          case 7:
+                          month="July";
+                            break;
+                            case 8:
+                            month="August";
+                              break;
+                              case 9:
+                              month="September";
+                                break;
+                                case 10:
+                                month="October";
+                                  break;
+                                  case 11:
+                                  month="November";
+                                    break;
+                                    case 12:
+                                    month="December";
+                                }
+                                return "".concat(month,'',day,',',year);
+                              },
+
+
+                  like: function(index){
+                        this.movies[index].likes+=1;
+                       },
+                  dislike: function(index){
+                        this.movies[index].dislikes+=1;
+
+                  },
+
+                  posterClick: function(index){
+                    if(this.movies[index].posterindex<(this.movies[index].posters.length -1)){
+                      this.movies[index].posterindex+=1;
+                    }
+                    else{
+                      this.movies[index].posterindex=0;
+                    }
+                  },
+
+                  timeText: function(minutes){
+                    return Math.floor(minutes/60)+'h '+minutes%60 + 'm';
+                  }
+
+
+            }
 })
