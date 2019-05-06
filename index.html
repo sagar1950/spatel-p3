@@ -49,7 +49,7 @@
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 						<p class="runtime" v-bind:value="movie.runtime">Runtime: {{timeText(movie.runtime)}}</p>
 						<p class="released" v-bind:value="movie.released[index]">Released: {{makeTextDate(movie.released)}} | Rated: {{movie.rating}}</p>
-						<p class="websites">Websites: <a>{{movie.imdb}}</a> | <a>{{movies.website}}</a></p>
+						<p class="websites">IMDB: <a>{{movie.imdb}}</a> | Website: <a> {{movie.website}}</a></p>
 
 			            <div class="social">
 			              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true" v-bind:src="movie.likes" @click="like(index)"></i> {{movie.likes}}</p>

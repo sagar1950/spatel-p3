@@ -84,7 +84,7 @@ const vue_app = new Vue({
                                     case 12:
                                     month="December";
                                 }
-                                return "".concat(month,'',day,',',year);
+                                return " ".concat(month,' ',day,',',year);
                               },
 
 

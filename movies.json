@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Avengers: Endgame",
+            "iscore": 8.9,
+            "rating": "R",
+            "runtime": 182,
+            "released": [2019, 4, 24],
+            "country": "USA",
+            "posters": ["img/endGame1.jpg", "img/endGame2.jpg", "img/endGame3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt4154796",
+            "website": "https://www.facebook.com/endgame",
+            "likes": 5000,
+            "dislikes": 20,
+            "posterindex": 0
+      },
+      {
+            "title": "Deadpool",
+            "iscore": 8.0,
+            "rating": "R",
+            "runtime": 109,
+            "released": [2016, 2, 12],
+            "country": "USA",
+            "posters": ["img/deadpool1.jpg", "img/deadpool2.jpg", "img/deadpool3.jpg"],
+            "imdb": "http://www.imdb.com/title/tt1431045",
+            "website": "https://www.facebook.com/deadpool",
+            "likes": 3020,
+            "dislikes": 404,
+            "posterindex": 0
+      },
+      {
+            "title": "John Wick 2",
+            "iscore": 7.5,
+            "rating": "R",
+            "runtime": 122,
+            "released": [2017, 2, 10],
+            "country": "USA",
+            "posters": ["img/wick1.jpg", "img/wick2.jpg", "img/wick3.jpg"],
+            "imdb": "http://www.imdb.com/title/tt4425200",
+            "website": "https://www.facebook.com/johnwick",
+            "likes": 1304,
+            "dislikes": 322,
+            "posterindex": 0
       }
 ]
