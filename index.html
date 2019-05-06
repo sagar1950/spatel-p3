@@ -45,11 +45,11 @@
 						<img class="poster" v-bind:src="movie.posters[movie.posterindex]" />
 						<div class="imageInfo">{{movies[0].posterindex}}</div>
 
-						<p class="title">{{movies[0].title}} ({{movies[0].country}})</p>
-						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{iscore}} </p>
-						<p class="runtime">Runtime: {{movies[0].runtime}}</p>
-						<p class="released">Released: {{movies[0].released}} | Rated: {{movies[0].rating}}</p>
-						<p class="websites">Websites: <a>{movies[0].{imdb}}</a> | <a>{{movies[0].website}}</a></p>
+						<p class="title">{{movie.title}} ({{movie.country}})</p>
+						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
+						<p class="runtime">Runtime: {{movie.runtime}}</p>
+						<p class="released">Released: {{movie.released[index]}} | Rated: {{movie.rating}}</p>
+						<p class="websites">Websites: <a>{{movie.imdb}}</a> | <a>{{movies.website}}</a></p>
 
 			            <div class="social">
 			              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{movies[0].likes}}</p>
